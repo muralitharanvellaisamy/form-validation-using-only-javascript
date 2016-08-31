@@ -37,6 +37,7 @@ Here the full code for first Name
 <span id="firstNameMsg" class="display-block"></span>
 
 /* first name validation starts  */
+
 function checkFname()   
 {
 	var fname=document.getElementById("firstName").value;  
@@ -48,9 +49,10 @@ function checkFname()
 	}
 	else 
 	{           
-                             document.getElementById('firstName').style.borderColor = "#228B22";
+                document.getElementById('firstName').style.borderColor = "#228B22";
 		document.getElementById('firstNameMsg').innerHTML = "";
               }
 	return true;
 } 
+
 /* first name validation starts  */
